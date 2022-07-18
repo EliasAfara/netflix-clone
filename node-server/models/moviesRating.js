@@ -10,11 +10,12 @@ const moviesRatingSchema = mongoose.Schema({
       type: String,
       required: true,
     },
-    category: {
+    genres: [String],
+    movieDirector: {
       type: String,
       required: true,
     },
-    movieDirector: {
+    backdrop_image: {
       type: String,
       required: true,
     },

@@ -6,6 +6,8 @@ const cors = require('cors');
 const morgan = require('morgan');
 const helmet = require('helmet');
 
+const moviesRatingRoute = require('./routes/moviesRating');
+
 const app = express();
 
 // Set security header
@@ -23,9 +25,11 @@ app.use(express.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors());
 
 // Testing
-// app.get('/', (req, res) => {
-//   res.send('Hello Elias');
-// });
+app.get('/', (req, res) => {
+  res.send('Hello Elias');
+});
+
+app.use('/api/movies/', moviesRatingRoute);
 
 const PORT = process.env.PORT || 3001;
 

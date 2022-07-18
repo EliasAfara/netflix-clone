@@ -1,3 +1,4 @@
+const express = require('express');
 const router = express.Router();
 
 // Controllers
@@ -7,12 +8,13 @@ const {
   getMovieRatings,
   updateMovieRating,
   deleteMovieRating,
-} = require('../controllers/callback');
+} = require('../controllers/moviesRating');
 
-router.post('/', postMovieRating);
-router.get('/', getAllMoviesRating);
-router.get('/:id', getMovieRatings);
-router.put('/:id', updateMovieRating);
-router.delete('/:id', deleteMovieRating);
+// '/movie/{movie_id}/rating'
+router.post('/:id/rating', postMovieRating);
+router.get('/rating', getAllMoviesRating);
+router.get('/:id/rating', getMovieRatings);
+router.put('/:id/rating', updateMovieRating);
+router.delete('/:id/rating', deleteMovieRating);
 
 module.exports = router;

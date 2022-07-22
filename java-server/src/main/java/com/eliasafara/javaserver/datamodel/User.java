@@ -1,8 +1,5 @@
 package com.eliasafara.javaserver.datamodel;
 
-
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
 import javax.persistence.*;
 
 @Entity

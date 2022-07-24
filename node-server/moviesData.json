@@ -1,20 +1,8 @@
 [
-    {
-        "themoviedb_movie_id": 438148,
-        "name": "Minions: The Rise of Gru",
-        "image": "/qTkJ6kbTeSjqfHCFCmWnfWZJOtm.jpg",
-        "popularity": 11846.631,
-        "release_date": "2022-06-29",
-        "director": "Kyle Balda",
-        "genres": [
-            "Family",
-            "Animation",
-            "Adventure"
-        ]
-    },
+    
     {
         "themoviedb_movie_id": 507086,
-        "name": "Jurassic World Dominion",
+        "title": "Jurassic World Dominion",
         "image": "/9eAn20y26wtB3aet7w9lHjuSgZ3.jpg",
         "popularity": 6252.796,
         "release_date": "2022-06-01",
@@ -27,7 +15,7 @@
     },
     {
         "themoviedb_movie_id": 718789,
-        "name": "Lightyear",
+        "title": "Lightyear",
         "image": "/7JytVNKaAQOFR2dFVpIIUsdwS15.jpg",
         "popularity": 5312.233,
         "release_date": "2022-06-15",
@@ -40,7 +28,7 @@
     },
     {
         "themoviedb_movie_id": 504827,
-        "name": "The Bob's Burgers Movie",
+        "title": "The Bob's Burgers Movie",
         "image": "/rQccrEIXtZr7KZHwcy9a3QFHGdQ.jpg",
         "popularity": 378.229,
         "release_date": "2022-05-26",
@@ -53,7 +41,7 @@
     },
     {
         "themoviedb_movie_id": 560057,
-        "name": "The Sea Beast",
+        "title": "The Sea Beast",
         "image": "/wUwizGzbTk5CTiKBnE4Pq1MONwD.jpg",
         "popularity": 730.327,
         "release_date": "2022-06-24",
@@ -66,7 +54,7 @@
     },
     {
         "themoviedb_movie_id": 338953,
-        "name": "Fantastic Beasts: The Secrets of Dumbledore",
+        "title": "Fantastic Beasts: The Secrets of Dumbledore",
         "image": "/zGLHX92Gk96O1DJvLil7ObJTbaL.jpg",
         "popularity": 1816.784,
         "release_date": "2022-04-06",
@@ -79,7 +67,7 @@
     },
     {
         "themoviedb_movie_id": 820912,
-        "name": "Persuasion",
+        "title": "Persuasion",
         "image": "/oE0J0zaLjJZkecx2seNH90YeSmk.jpg",
         "popularity": 46.257,
         "release_date": "2022-07-01",
@@ -92,7 +80,7 @@
     },
     {
         "themoviedb_movie_id": 759175,
-        "name": "The Princess",
+        "title": "The Princess",
         "image": "/5PnypKiSj2efSPqThNjTXz8jwOg.jpg",
         "popularity": 2932.278,
         "release_date": "2022-06-16",
@@ -104,7 +92,7 @@
     },
     {
         "themoviedb_movie_id": 453395,
-        "name": "Doctor Strange in the Multiverse of Madness",
+        "title": "Doctor Strange in the Multiverse of Madness",
         "image": "/wcKFYIiVDvRURrzglV9kGu7fpfY.jpg",
         "popularity": 4565.1,
         "release_date": "2022-05-04",
@@ -117,7 +105,7 @@
     },
     {
         "themoviedb_movie_id": 756999,
-        "name": "The Black Phone",
+        "title": "The Black Phone",
         "image": "/tsC3DRGAQvkoA88lQQfbQ40byFS.jpg",
         "popularity": 2984.706,
         "release_date": "2022-02-04",
@@ -129,7 +117,7 @@
     },
     {
         "themoviedb_movie_id": 616037,
-        "name": "Thor: Love and Thunder",
+        "title": "Thor: Love and Thunder",
         "image": "/p1F51Lvj3sMopG948F5HsBbl43C.jpg",
         "popularity": 3611.816,
         "release_date": "2022-07-06",
@@ -142,7 +130,7 @@
     },
     {
         "themoviedb_movie_id": 634649,
-        "name": "Spider-Man: No Way Home",
+        "title": "Spider-Man: No Way Home",
         "image": "/ocUp7DJBIc8VJgLEw1prcyK1dYv.jpg",
         "popularity": 1765.439,
         "release_date": "2021-12-15",
@@ -155,7 +143,7 @@
     },
     {
         "themoviedb_movie_id": 545611,
-        "name": "Everything Everywhere All at Once",
+        "title": "Everything Everywhere All at Once",
         "image": "/wp3vpSWAIjKSEeYb8F5NSZfONqw.jpg",
         "popularity": 306.976,
         "release_date": "2022-03-24",
@@ -168,7 +156,7 @@
     },
     {
         "themoviedb_movie_id": 361743,
-        "name": "Top Gun: Maverick",
+        "title": "Top Gun: Maverick",
         "image": "/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
         "popularity": 5122.333,
         "release_date": "2022-05-24",
@@ -180,7 +168,7 @@
     },
     {
         "themoviedb_movie_id": 667739,
-        "name": "The Man from Toronto",
+        "title": "The Man from Toronto",
         "image": "/iOFBH9KtjKMntbP2kheeOpMQTcC.jpg",
         "popularity": 1161.947,
         "release_date": "2022-06-24",
@@ -193,7 +181,7 @@
     },
     {
         "themoviedb_movie_id": 864370,
-        "name": "咒",
+        "title": "咒",
         "image": "/6d1mHKcozT5AaZeI76ehJrBt0hr.jpg",
         "popularity": 432.141,
         "release_date": "2022-03-18",
@@ -204,7 +192,7 @@
     },
     {
         "themoviedb_movie_id": 887357,
-        "name": "Green Lantern: Beware My Power",
+        "title": "Green Lantern: Beware My Power",
         "image": "/v2PbcBAJINk02PYWppsGsuQRIuu.jpg",
         "popularity": 97.565,
         "release_date": "2022-07-26",
@@ -217,7 +205,7 @@
     },
     {
         "themoviedb_movie_id": 752623,
-        "name": "The Lost City",
+        "title": "The Lost City",
         "image": "/1Ds7xy7ILo8u2WWxdnkJth1jQVT.jpg",
         "popularity": 1463.279,
         "release_date": "2022-03-24",
@@ -230,7 +218,7 @@
     },
     {
         "themoviedb_movie_id": 613093,
-        "name": "Malnazidos",
+        "title": "Malnazidos",
         "image": "/h6XfgbzQEV4sitsIVY63pawLI0s.jpg",
         "popularity": 177.345,
         "release_date": "2022-03-11",
@@ -243,7 +231,7 @@
     },
     {
         "themoviedb_movie_id": 809107,
-        "name": "Z-O-M-B-I-E-S 3",
+        "title": "Z-O-M-B-I-E-S 3",
         "image": "/wNQpfAZkySbinb93qVwWIWaot1x.jpg",
         "popularity": 343.715,
         "release_date": "2022-07-09",
@@ -256,7 +244,7 @@
     },
     {
         "themoviedb_movie_id": 615173,
-        "name": "마녀 2",
+        "title": "마녀 2",
         "image": "/wgdWNBqPIAH29ZsL3I0AVx7XRed.jpg",
         "popularity": 221.084,
         "release_date": "2022-06-15",
@@ -269,7 +257,7 @@
     },
     {
         "themoviedb_movie_id": 675353,
-        "name": "Sonic the Hedgehog 2",
+        "title": "Sonic the Hedgehog 2",
         "image": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
         "popularity": 1975.529,
         "release_date": "2022-03-30",
@@ -282,7 +270,7 @@
     },
     {
         "themoviedb_movie_id": 648579,
-        "name": "The Unbearable Weight of Massive Talent",
+        "title": "The Unbearable Weight of Massive Talent",
         "image": "/hYGN54YTbkd4UJQi45vp2y0cofZ.jpg",
         "popularity": 871.469,
         "release_date": "2022-04-20",
@@ -295,7 +283,7 @@
     },
     {
         "themoviedb_movie_id": 614934,
-        "name": "Elvis",
+        "title": "Elvis",
         "image": "/rLo9T9jEg67UZPq3midjLnTUYYi.jpg",
         "popularity": 362.289,
         "release_date": "2022-06-22",
@@ -308,7 +296,7 @@
     },
     {
         "themoviedb_movie_id": 414906,
-        "name": "The Batman",
+        "title": "The Batman",
         "image": "/IYUD7rAIXzBM91TT3Z5fILUS7n.jpg",
         "popularity": 973.92,
         "release_date": "2022-03-01",
@@ -321,7 +309,7 @@
     },
     {
         "themoviedb_movie_id": 526896,
-        "name": "Morbius",
+        "title": "Morbius",
         "image": "/gG9fTyDL03fiKnOpf2tr01sncnt.jpg",
         "popularity": 1346.417,
         "release_date": "2022-03-30",
@@ -334,7 +322,7 @@
     },
     {
         "themoviedb_movie_id": 639933,
-        "name": "The Northman",
+        "title": "The Northman",
         "image": "/fqw8nJLPRgKRyFSDC0xBsC06NGC.jpg",
         "popularity": 1176.065,
         "release_date": "2022-04-07",
@@ -347,7 +335,7 @@
     },
     {
         "themoviedb_movie_id": 888195,
-        "name": "Hot Seat",
+        "title": "Hot Seat",
         "image": "/g3pG27i0v6eKWDKLf4GQsKZxmZX.jpg",
         "popularity": 1037.849,
         "release_date": "2022-07-01",
@@ -359,7 +347,7 @@
     },
     {
         "themoviedb_movie_id": 761898,
-        "name": "劇場版 ソードアート・オンライン プログレッシブ 星なき夜のアリア",
+        "title": "劇場版 ソードアート・オンライン プログレッシブ 星なき夜のアリア",
         "image": "/2kvl6lcgoyAaf8cSRkzxE611u6T.jpg",
         "popularity": 888.044,
         "release_date": "2021-10-30",
@@ -372,7 +360,7 @@
     },
     {
         "themoviedb_movie_id": 820446,
-        "name": "Downton Abbey: A New Era",
+        "title": "Downton Abbey: A New Era",
         "image": "/nBHKT3pm5DmidZd5VS4bD5Hc2S3.jpg",
         "popularity": 133.928,
         "release_date": "2022-04-27",
@@ -384,7 +372,7 @@
     },
     {
         "themoviedb_movie_id": 819876,
-        "name": "Crimes of the Future",
+        "title": "Crimes of the Future",
         "image": "/crzp8X5oRstwcEENdpvJsLUfqRS.jpg",
         "popularity": 68.333,
         "release_date": "2022-05-25",
@@ -397,7 +385,7 @@
     },
     {
         "themoviedb_movie_id": 615469,
-        "name": "Spiderhead",
+        "title": "Spiderhead",
         "image": "/ulkWS7Atv0vv33KVCSAmNizAmJd.jpg",
         "popularity": 947.079,
         "release_date": "2022-06-15",
@@ -409,7 +397,7 @@
     },
     {
         "themoviedb_movie_id": 745376,
-        "name": "Hello, Goodbye, and Everything in Between",
+        "title": "Hello, Goodbye, and Everything in Between",
         "image": "/8vn4eis4xk6cnOnAuAcyzPbqVb0.jpg",
         "popularity": 422.845,
         "release_date": "2022-07-06",
@@ -421,7 +409,7 @@
     },
     {
         "themoviedb_movie_id": 629542,
-        "name": "The Bad Guys",
+        "title": "The Bad Guys",
         "image": "/fEe5fe82qHzjO4yej0o79etqsWV.jpg",
         "popularity": 745.08,
         "release_date": "2022-03-17",
@@ -434,7 +422,7 @@
     },
     {
         "themoviedb_movie_id": 335787,
-        "name": "Uncharted",
+        "title": "Uncharted",
         "image": "/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
         "popularity": 1015.889,
         "release_date": "2022-02-10",
@@ -446,7 +434,7 @@
     },
     {
         "themoviedb_movie_id": 968739,
-        "name": "Les liaisons dangereuses",
+        "title": "Les liaisons dangereuses",
         "image": "/3XAPsH5yS6p54P5PkAtxJfnvlhU.jpg",
         "popularity": 87.332,
         "release_date": "2022-07-08",
@@ -458,7 +446,7 @@
     },
     {
         "themoviedb_movie_id": 299534,
-        "name": "Avengers: Endgame",
+        "title": "Avengers: Endgame",
         "image": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
         "popularity": 228.777,
         "release_date": "2019-04-24",
@@ -471,7 +459,7 @@
     },
     {
         "themoviedb_movie_id": 818397,
-        "name": "Memory",
+        "title": "Memory",
         "image": "/vjnLXptqdxnpNJer5fWgj2OIGhL.jpg",
         "popularity": 1327.384,
         "release_date": "2022-04-28",
@@ -484,7 +472,7 @@
     },
     {
         "themoviedb_movie_id": 763285,
-        "name": "Ambulance",
+        "title": "Ambulance",
         "image": "/dW3fQJrshh2wYDoW4HUA7ZabsN1.jpg",
         "popularity": 375.432,
         "release_date": "2022-03-16",
@@ -497,7 +485,7 @@
     },
     {
         "themoviedb_movie_id": 873127,
-        "name": "Sotto il sole di Amalfi",
+        "title": "Sotto il sole di Amalfi",
         "image": "/eHi7TyBJW9g6OdRzrrecrFJd3uo.jpg",
         "popularity": 95.791,
         "release_date": "2022-07-13",
@@ -510,7 +498,7 @@
     },
     {
         "themoviedb_movie_id": 780609,
-        "name": "Men",
+        "title": "Men",
         "image": "/4N2FuCTuqH3h4dw9XPFtsnDPSz7.jpg",
         "popularity": 39.63,
         "release_date": "2022-05-20",
@@ -523,7 +511,7 @@
     },
     {
         "themoviedb_movie_id": 759054,
-        "name": "Rise",
+        "title": "Rise",
         "image": "/uKL39lSf3rQbcMG8XbByoHBwGId.jpg",
         "popularity": 296.253,
         "release_date": "2022-06-23",
@@ -534,7 +522,7 @@
     },
     {
         "themoviedb_movie_id": 671,
-        "name": "Harry Potter and the Philosopher's Stone",
+        "title": "Harry Potter and the Philosopher's Stone",
         "image": "/5jkE2SzR5uR2egEb1rRhF22JyWN.jpg",
         "popularity": 223.279,
         "release_date": "2001-11-16",
@@ -546,7 +534,7 @@
     },
     {
         "themoviedb_movie_id": 744,
-        "name": "Top Gun",
+        "title": "Top Gun",
         "image": "/jILeJ60zPpIjjJHGSmIeY4eO30t.jpg",
         "popularity": 352.016,
         "release_date": "1986-05-16",
@@ -558,7 +546,7 @@
     },
     {
         "themoviedb_movie_id": 725201,
-        "name": "The Gray Man",
+        "title": "The Gray Man",
         "image": "/lSFVguAk1kj3z06na7tK4cumh2o.jpg",
         "popularity": 112.721,
         "release_date": "2022-07-13",
@@ -571,7 +559,7 @@
     },
     {
         "themoviedb_movie_id": 284052,
-        "name": "Doctor Strange",
+        "title": "Doctor Strange",
         "image": "/eQN31P4IEhyp6NkdccvppJnyuJ4.jpg",
         "popularity": 214.593,
         "release_date": "2016-10-25",
@@ -584,7 +572,7 @@
     },
     {
         "themoviedb_movie_id": 524434,
-        "name": "Eternals",
+        "title": "Eternals",
         "image": "/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
         "popularity": 429.768,
         "release_date": "2021-11-03",
@@ -597,7 +585,7 @@
     },
     {
         "themoviedb_movie_id": 299536,
-        "name": "Avengers: Infinity War",
+        "title": "Avengers: Infinity War",
         "image": "/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg",
         "popularity": 401.339,
         "release_date": "2018-04-25",
@@ -610,7 +598,7 @@
     },
     {
         "themoviedb_movie_id": 284053,
-        "name": "Thor: Ragnarok",
+        "title": "Thor: Ragnarok",
         "image": "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
         "popularity": 515.447,
         "release_date": "2017-10-24",
@@ -623,7 +611,7 @@
     },
     {
         "themoviedb_movie_id": 828947,
-        "name": "Beavis and Butt-Head Do the Universe",
+        "title": "Beavis and Butt-Head Do the Universe",
         "image": "/q3sfAlvvEvJn3PSPAMJiOqGl9OC.jpg",
         "popularity": 43.375,
         "release_date": "2022-06-23",
@@ -636,7 +624,7 @@
     },
     {
         "themoviedb_movie_id": 894169,
-        "name": "Vendetta",
+        "title": "Vendetta",
         "image": "/33qGtN2GpGEb94pn25PDPeWQZLk.jpg",
         "popularity": 504.951,
         "release_date": "2022-05-17",
@@ -649,7 +637,7 @@
     },
     {
         "themoviedb_movie_id": 793961,
-        "name": "Rubikon",
+        "title": "Rubikon",
         "image": "/pFP878NvW4MD6MQbRv0tqpdoBXY.jpg",
         "popularity": 40.093,
         "release_date": "2022-07-01",
@@ -661,7 +649,7 @@
     },
     {
         "themoviedb_movie_id": 406759,
-        "name": "Moonfall",
+        "title": "Moonfall",
         "image": "/8QpzqK3nPGxpqpKqhe6QasTGBWQ.jpg",
         "popularity": 627.067,
         "release_date": "2022-02-03",
@@ -674,7 +662,7 @@
     },
     {
         "themoviedb_movie_id": 566525,
-        "name": "Shang-Chi and the Legend of the Ten Rings",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
         "image": "/zxWAv1A34kdYslBi4ekMDtgIGUt.jpg",
         "popularity": 443.208,
         "release_date": "2021-09-01",
@@ -687,7 +675,7 @@
     },
     {
         "themoviedb_movie_id": 438631,
-        "name": "Dune",
+        "title": "Dune",
         "image": "/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg",
         "popularity": 205.396,
         "release_date": "2021-09-15",
@@ -699,7 +687,7 @@
     },
     {
         "themoviedb_movie_id": 329,
-        "name": "Jurassic Park",
+        "title": "Jurassic Park",
         "image": "/alqZDg4DXBpNCVTzRPXe5zkkAXX.jpg",
         "popularity": 115.252,
         "release_date": "1993-06-11",
@@ -711,7 +699,7 @@
     },
     {
         "themoviedb_movie_id": 705861,
-        "name": "Hustle",
+        "title": "Hustle",
         "image": "/hGr0FrLI74vqpBWTBOPloDBwOAK.jpg",
         "popularity": 746.928,
         "release_date": "2022-06-03",
@@ -723,7 +711,7 @@
     },
     {
         "themoviedb_movie_id": 508947,
-        "name": "Turning Red",
+        "title": "Turning Red",
         "image": "/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
         "popularity": 1265.226,
         "release_date": "2022-03-10",
@@ -736,7 +724,7 @@
     },
     {
         "themoviedb_movie_id": 370172,
-        "name": "No Time to Die",
+        "title": "No Time to Die",
         "image": "/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg",
         "popularity": 214.645,
         "release_date": "2021-09-29",
@@ -749,7 +737,7 @@
     },
     {
         "themoviedb_movie_id": 10195,
-        "name": "Thor",
+        "title": "Thor",
         "image": "/n5zyJxk4q2dh4ep95MnvKC1y0VC.jpg",
         "popularity": 685.301,
         "release_date": "2011-04-21",
@@ -762,7 +750,7 @@
     },
     {
         "themoviedb_movie_id": 135397,
-        "name": "Jurassic World",
+        "title": "Jurassic World",
         "image": "/yOCRqvrRrxbs5FYq2pX1KtLJwmR.jpg",
         "popularity": 356.076,
         "release_date": "2015-06-06",
@@ -775,7 +763,7 @@
     },
     {
         "themoviedb_movie_id": 916719,
-        "name": "Code Name Banshee",
+        "title": "Code title Banshee",
         "image": "/ttkibtcAjoilW1PbTIFy9U9YOdB.jpg",
         "popularity": 50.733,
         "release_date": "2022-07-01",
@@ -787,7 +775,7 @@
     },
     {
         "themoviedb_movie_id": 809140,
-        "name": "Father Stu",
+        "title": "Father Stu",
         "image": "/rmhMB6KBxdSYatfiFoas60uF6Fc.jpg",
         "popularity": 465.073,
         "release_date": "2022-04-13",
@@ -798,7 +786,7 @@
     },
     {
         "themoviedb_movie_id": 743563,
-        "name": "விக்ரம்",
+        "title": "விக்ரம்",
         "image": "/1GGc5XXaFgNBoJnOEBJCnXSMwhx.jpg",
         "popularity": 21.235,
         "release_date": "2022-06-02",
@@ -810,7 +798,7 @@
     },
     {
         "themoviedb_movie_id": 698128,
-        "name": "Dual",
+        "title": "Dual",
         "image": "/5ps2H3srzXZgmpI0yPv2xH6gc2W.jpg",
         "popularity": 289.558,
         "release_date": "2022-03-18",
@@ -823,7 +811,7 @@
     },
     {
         "themoviedb_movie_id": 568124,
-        "name": "Encanto",
+        "title": "Encanto",
         "image": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
         "popularity": 878.406,
         "release_date": "2021-11-24",
@@ -836,7 +824,7 @@
     },
     {
         "themoviedb_movie_id": 120,
-        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
         "image": "/tdmlSbLl84hfHx635AqHLB8Qh8M.jpg",
         "popularity": 128.38,
         "release_date": "2001-12-18",
@@ -849,7 +837,7 @@
     },
     {
         "themoviedb_movie_id": 11,
-        "name": "Star Wars",
+        "title": "Star Wars",
         "image": "/jBFxXKCrViA88hhO59fDx0Av4P.jpg",
         "popularity": 84.281,
         "release_date": "1977-05-25",
@@ -862,7 +850,7 @@
     },
     {
         "themoviedb_movie_id": 460458,
-        "name": "Resident Evil: Welcome to Raccoon City",
+        "title": "Resident Evil: Welcome to Raccoon City",
         "image": "/o76ZDm8PS9791XiuieNB93UZcRV.jpg",
         "popularity": 590.589,
         "release_date": "2021-11-24",
@@ -875,7 +863,7 @@
     },
     {
         "themoviedb_movie_id": 1726,
-        "name": "Iron Man",
+        "title": "Iron Man",
         "image": "/s6cQgJSkviamXAXBggT2xmj7JiG.jpg",
         "popularity": 111.254,
         "release_date": "2008-04-30",
@@ -888,7 +876,7 @@
     },
     {
         "themoviedb_movie_id": 351286,
-        "name": "Jurassic World: Fallen Kingdom",
+        "title": "Jurassic World: Fallen Kingdom",
         "image": "/3s9O5af2xWKWR5JzP2iJZpZeQQg.jpg",
         "popularity": 324.448,
         "release_date": "2018-06-06",
@@ -901,7 +889,7 @@
     },
     {
         "themoviedb_movie_id": 497698,
-        "name": "Black Widow",
+        "title": "Black Widow",
         "image": "/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
         "popularity": 269.197,
         "release_date": "2021-07-07",
@@ -914,7 +902,7 @@
     },
     {
         "themoviedb_movie_id": 76338,
-        "name": "Thor: The Dark World",
+        "title": "Thor: The Dark World",
         "image": "/uhYoytlNaq46dG81wLmHqaSuzWu.jpg",
         "popularity": 454.93,
         "release_date": "2013-10-30",
@@ -927,7 +915,7 @@
     },
     {
         "themoviedb_movie_id": 610150,
-        "name": "ドラゴンボール超：スーパーヒーロー",
+        "title": "ドラゴンボール超：スーパーヒーロー",
         "image": "/uR0FopHrAjDlG5q6PZB07a1JOva.jpg",
         "popularity": 1350.622,
         "release_date": "2022-06-11",
@@ -940,7 +928,7 @@
     },
     {
         "themoviedb_movie_id": 238,
-        "name": "The Godfather",
+        "title": "The Godfather",
         "image": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
         "popularity": 76.122,
         "release_date": "1972-03-14",
@@ -952,7 +940,7 @@
     },
     {
         "themoviedb_movie_id": 438695,
-        "name": "Sing 2",
+        "title": "Sing 2",
         "image": "/6mJrgL7Mi13XjJeGYJFlD6UEVQw.jpg",
         "popularity": 573.967,
         "release_date": "2021-12-01",
@@ -965,7 +953,7 @@
     },
     {
         "themoviedb_movie_id": 746419,
-        "name": "Father of the Bride",
+        "title": "Father of the Bride",
         "image": "/oQMqMLIJXZAVMplga9RhDyZInAW.jpg",
         "popularity": 167.447,
         "release_date": "2022-06-05",
@@ -977,7 +965,7 @@
     },
     {
         "themoviedb_movie_id": 705996,
-        "name": "헤어질 결심",
+        "title": "헤어질 결심",
         "image": "/uODT1JAYZaEf43m4Vtt0w56Yl27.jpg",
         "popularity": 31.812,
         "release_date": "2022-06-29",
@@ -990,7 +978,7 @@
     },
     {
         "themoviedb_movie_id": 624860,
-        "name": "The Matrix Resurrections",
+        "title": "The Matrix Resurrections",
         "image": "/eNI7PtK6DEYgZmHWP9gQNuff8pv.jpg",
         "popularity": 325.208,
         "release_date": "2021-12-16",
@@ -1003,7 +991,7 @@
     },
     {
         "themoviedb_movie_id": 24428,
-        "name": "The Avengers",
+        "title": "The Avengers",
         "image": "/nNmJRkg8wWnRmzQDe2FwKbPIsJV.jpg",
         "popularity": 253.921,
         "release_date": "2012-04-25",
@@ -1016,7 +1004,7 @@
     },
     {
         "themoviedb_movie_id": 807356,
-        "name": "Watcher",
+        "title": "Watcher",
         "image": "/tNsT0gtiYOb9qx0xFqvQwKqVvHq.jpg",
         "popularity": 27.229,
         "release_date": "2022-06-03",
@@ -1028,7 +1016,7 @@
     },
     {
         "themoviedb_movie_id": 315635,
-        "name": "Spider-Man: Homecoming",
+        "title": "Spider-Man: Homecoming",
         "image": "/tTlAA0REGPXSZPBfWyTW9ipIv1I.jpg",
         "popularity": 160.96,
         "release_date": "2017-07-05",
@@ -1041,7 +1029,7 @@
     },
     {
         "themoviedb_movie_id": 429617,
-        "name": "Spider-Man: Far From Home",
+        "title": "Spider-Man: Far From Home",
         "image": "/ng6SSB3JhbcpKTwbPDsRwUYK8Cq.jpg",
         "popularity": 175.068,
         "release_date": "2019-06-28",
@@ -1054,7 +1042,7 @@
     },
     {
         "themoviedb_movie_id": 157336,
-        "name": "Interstellar",
+        "title": "Interstellar",
         "image": "/pbrkL804c8yAv3zBZR4QPEafpAR.jpg",
         "popularity": 189.43,
         "release_date": "2014-11-05",
@@ -1067,7 +1055,7 @@
     },
     {
         "themoviedb_movie_id": 829557,
-        "name": "365 Days: This Day",
+        "title": "365 Days: This Day",
         "image": "/t9hNIUFcy0tYu55IPxjxRTTdZ6X.jpg",
         "popularity": 454.448,
         "release_date": "2022-04-27",
@@ -1079,7 +1067,7 @@
     },
     {
         "themoviedb_movie_id": 921353,
-        "name": "Wrong Place",
+        "title": "Wrong Place",
         "image": "/zSre0UHWLSnDoNrM9F2Go9OXq5G.jpg",
         "popularity": 60.785,
         "release_date": "2022-07-15",
@@ -1092,7 +1080,7 @@
     },
     {
         "themoviedb_movie_id": 961484,
-        "name": "Last Seen Alive",
+        "title": "Last Seen Alive",
         "image": "/riyxG4iMQID7GovFPEGI3czQMYz.jpg",
         "popularity": 740.66,
         "release_date": "2022-05-19",
@@ -1104,7 +1092,7 @@
     },
     {
         "themoviedb_movie_id": 884315,
-        "name": "Terror on the Prairie",
+        "title": "Terror on the Prairie",
         "image": "/8Z8dVGTn3OhX1AR49tgvh89i79G.jpg",
         "popularity": 23.131,
         "release_date": "2022-06-14",
@@ -1117,7 +1105,7 @@
     },
     {
         "themoviedb_movie_id": 211672,
-        "name": "Minions",
+        "title": "Minions",
         "image": "/c7xTZ9EA6GpH72xJC5s0x0KKR1a.jpg",
         "popularity": 269.811,
         "release_date": "2015-06-17",
@@ -1130,7 +1118,7 @@
     },
     {
         "themoviedb_movie_id": 19995,
-        "name": "Avatar",
+        "title": "Avatar",
         "image": "/jlQJDD0L5ZojjlS0KYnApdO0n19.jpg",
         "popularity": 334.792,
         "release_date": "2009-12-10",
@@ -1143,7 +1131,7 @@
     },
     {
         "themoviedb_movie_id": 580489,
-        "name": "Venom: Let There Be Carnage",
+        "title": "Venom: Let There Be Carnage",
         "image": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
         "popularity": 558.177,
         "release_date": "2021-09-30",
@@ -1156,7 +1144,7 @@
     },
     {
         "themoviedb_movie_id": 420821,
-        "name": "Chip 'n Dale: Rescue Rangers",
+        "title": "Chip 'n Dale: Rescue Rangers",
         "image": "/qK7Ssnrfvrt65F66A1thvehfQg2.jpg",
         "popularity": 463.309,
         "release_date": "2022-05-18",
@@ -1169,7 +1157,7 @@
     },
     {
         "themoviedb_movie_id": 1771,
-        "name": "Captain America: The First Avenger",
+        "title": "Captain America: The First Avenger",
         "image": "/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg",
         "popularity": 96.323,
         "release_date": "2011-07-22",
@@ -1182,7 +1170,7 @@
     },
     {
         "themoviedb_movie_id": 99861,
-        "name": "Avengers: Age of Ultron",
+        "title": "Avengers: Age of Ultron",
         "image": "/xnqust9Li4oxfhXD5kcPi3UC8i4.jpg",
         "popularity": 209.9,
         "release_date": "2015-04-22",
@@ -1195,7 +1183,7 @@
     },
     {
         "themoviedb_movie_id": 758330,
-        "name": "Good Luck to You, Leo Grande",
+        "title": "Good Luck to You, Leo Grande",
         "image": "/fILWktCfh0ZiKWjWwyXalWzSvKX.jpg",
         "popularity": 50.106,
         "release_date": "2022-06-17",
@@ -1208,7 +1196,7 @@
     },
     {
         "themoviedb_movie_id": 299537,
-        "name": "Captain Marvel",
+        "title": "Captain Marvel",
         "image": "/w2PMyoyLU22YvrGK3smVM9fW1jj.jpg",
         "popularity": 106.529,
         "release_date": "2019-03-06",
@@ -1221,7 +1209,7 @@
     },
     {
         "themoviedb_movie_id": 664413,
-        "name": "365 dni",
+        "title": "365 dni",
         "image": "/isBjNHBblzxrzHrAtRbjgkYzAut.jpg",
         "popularity": 55.828,
         "release_date": "2020-02-07",
@@ -1233,7 +1221,7 @@
     },
     {
         "themoviedb_movie_id": 831946,
-        "name": "Interceptor",
+        "title": "Interceptor",
         "image": "/i2tcQ9nDJpdJELPA82eCd7Irasd.jpg",
         "popularity": 614.558,
         "release_date": "2022-05-26",
@@ -1246,7 +1234,7 @@
     },
     {
         "themoviedb_movie_id": 661231,
-        "name": "Operation Mincemeat",
+        "title": "Operation Mincemeat",
         "image": "/jCSpD2Sj67qOVnOu4b3JsXl8NO4.jpg",
         "popularity": 52.862,
         "release_date": "2022-04-01",
@@ -1259,7 +1247,7 @@
     },
     {
         "themoviedb_movie_id": 814340,
-        "name": "Cha Cha Real Smooth",
+        "title": "Cha Cha Real Smooth",
         "image": "/1LMGpNSUekWg3XCPweN33knQPW9.jpg",
         "popularity": 163.764,
         "release_date": "2022-06-17",
@@ -1272,7 +1260,7 @@
     },
     {
         "themoviedb_movie_id": 385128,
-        "name": "F9",
+        "title": "F9",
         "image": "/fWjcUTKOKsAPK4VUAzEQW4kN4K6.jpg",
         "popularity": 240.444,
         "release_date": "2021-05-19",
@@ -1285,7 +1273,7 @@
     },
     {
         "themoviedb_movie_id": 425909,
-        "name": "Ghostbusters: Afterlife",
+        "title": "Ghostbusters: Afterlife",
         "image": "/zplzc6jxO3SK7Pa4yxVoRY5VflT.jpg",
         "popularity": 362.516,
         "release_date": "2021-11-11",
@@ -1298,7 +1286,7 @@
     },
     {
         "themoviedb_movie_id": 271110,
-        "name": "Captain America: Civil War",
+        "title": "Captain America: Civil War",
         "image": "/7FWlcZq3r6525LWOcvO9kNWurN1.jpg",
         "popularity": 141.883,
         "release_date": "2016-04-27",
@@ -1311,7 +1299,7 @@
     },
     {
         "themoviedb_movie_id": 843847,
-        "name": "Jerry & Marge Go Large",
+        "title": "Jerry & Marge Go Large",
         "image": "/4OjoH07cxYQbnGiJzJxto0NUejH.jpg",
         "popularity": 335.237,
         "release_date": "2022-06-15",
@@ -1323,7 +1311,7 @@
     },
     {
         "themoviedb_movie_id": 557,
-        "name": "Spider-Man",
+        "title": "Spider-Man",
         "image": "/sWvxBXNtCOaGdtpKNLiOqmwb10N.jpg",
         "popularity": 114.828,
         "release_date": "2002-05-01",
@@ -1335,7 +1323,7 @@
     },
     {
         "themoviedb_movie_id": 597,
-        "name": "Titanic",
+        "title": "Titanic",
         "image": "/yDI6D5ZQh67YU4r2ms8qcSbAviZ.jpg",
         "popularity": 145.328,
         "release_date": "1997-11-18",
@@ -1347,7 +1335,7 @@
     },
     {
         "themoviedb_movie_id": 137113,
-        "name": "Edge of Tomorrow",
+        "title": "Edge of Tomorrow",
         "image": "/b4ZjgjOvbIJ6oJoiCJpnYNT50s2.jpg",
         "popularity": 63.382,
         "release_date": "2014-05-27",
@@ -1359,7 +1347,7 @@
     },
     {
         "themoviedb_movie_id": 968572,
-        "name": "Für JoJo",
+        "title": "Für JoJo",
         "image": "/30QbBWReegQoWYmq0Gzg0lTjiP6.jpg",
         "popularity": 34.637,
         "release_date": "2022-07-11",
@@ -1370,7 +1358,7 @@
     },
     {
         "themoviedb_movie_id": 532710,
-        "name": "Firestarter",
+        "title": "Firestarter",
         "image": "/bIFrsAcqkLUUxaaiqqpFexYPeCh.jpg",
         "popularity": 40.089,
         "release_date": "2022-05-12",
@@ -1382,7 +1370,7 @@
     },
     {
         "themoviedb_movie_id": 821119,
-        "name": "जादूगर",
+        "title": "जादूगर",
         "image": "/3AxQq0P8Bg0Ocw5ePcXAREpaaio.jpg",
         "popularity": 67.037,
         "release_date": "2022-07-15",
@@ -1395,7 +1383,7 @@
     },
     {
         "themoviedb_movie_id": 579974,
-        "name": "రౌద్రం రణం రుధిరం",
+        "title": "రౌద్రం రణం రుధిరం",
         "image": "/i0Y0wP8H6SRgjr6QmuwbtQbS24D.jpg",
         "popularity": 40.601,
         "release_date": "2022-03-24",
@@ -1407,7 +1395,7 @@
     },
     {
         "themoviedb_movie_id": 589754,
-        "name": "Последний богатырь: Корень зла",
+        "title": "Последний богатырь: Корень зла",
         "image": "/dIibeeq4QMay5bTJ2vjr72IFFRo.jpg",
         "popularity": 294.006,
         "release_date": "2021-01-01",
@@ -1420,7 +1408,7 @@
     },
     {
         "themoviedb_movie_id": 505026,
-        "name": "Death on the Nile",
+        "title": "Death on the Nile",
         "image": "/lRbDyjI7HEaXxflFQbYpqHRGFBJ.jpg",
         "popularity": 107.816,
         "release_date": "2022-02-09",
@@ -1433,7 +1421,7 @@
     },
     {
         "themoviedb_movie_id": 1724,
-        "name": "The Incredible Hulk",
+        "title": "The Incredible Hulk",
         "image": "/jPu8yiadqgzwFPGKJmGo637ASVP.jpg",
         "popularity": 64.654,
         "release_date": "2008-06-12",
@@ -1446,7 +1434,7 @@
     },
     {
         "themoviedb_movie_id": 283995,
-        "name": "Guardians of the Galaxy Vol. 2",
+        "title": "Guardians of the Galaxy Vol. 2",
         "image": "/xpFIaHL7Rm5kKLcEPDEMpjh4Xq6.jpg",
         "popularity": 120.045,
         "release_date": "2017-04-19",
@@ -1459,7 +1447,7 @@
     },
     {
         "themoviedb_movie_id": 284054,
-        "name": "Black Panther",
+        "title": "Black Panther",
         "image": "/6ELJEzQJ3Y45HczvreC3dg0GV5R.jpg",
         "popularity": 98.729,
         "release_date": "2018-02-13",
@@ -1472,7 +1460,7 @@
     },
     {
         "themoviedb_movie_id": 118340,
-        "name": "Guardians of the Galaxy",
+        "title": "Guardians of the Galaxy",
         "image": "/2UFxrUHVuSK3Tth7DvQQlF4mGTd.jpg",
         "popularity": 60.117,
         "release_date": "2014-07-30",
@@ -1485,7 +1473,7 @@
     },
     {
         "themoviedb_movie_id": 155,
-        "name": "The Dark Knight",
+        "title": "The Dark Knight",
         "image": "/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
         "popularity": 76.806,
         "release_date": "2008-07-14",
@@ -1498,7 +1486,7 @@
     },
     {
         "themoviedb_movie_id": 626735,
-        "name": "Dog",
+        "title": "Dog",
         "image": "/t0mwKhUDa62hdhdKSsN4xMfhY5Z.jpg",
         "popularity": 1529.108,
         "release_date": "2022-02-17",
@@ -1510,7 +1498,7 @@
     },
     {
         "themoviedb_movie_id": 968438,
-        "name": "Love & Gelato",
+        "title": "Love & Gelato",
         "image": "/eUwnVr8Z6kJFBP8NzOU4GORzVtb.jpg",
         "popularity": 131.587,
         "release_date": "2022-06-22",
@@ -1523,7 +1511,7 @@
     },
     {
         "themoviedb_movie_id": 795813,
-        "name": "Ich bin dein Mensch",
+        "title": "Ich bin dein Mensch",
         "image": "/6czAKr8g6wNNGZqSCpWM2YXa332.jpg",
         "popularity": 27.249,
         "release_date": "2021-07-01",
@@ -1536,7 +1524,7 @@
     },
     {
         "themoviedb_movie_id": 646385,
-        "name": "Scream",
+        "title": "Scream",
         "image": "/ifUfE79O1raUwbaQRIB7XnFz5ZC.jpg",
         "popularity": 363.078,
         "release_date": "2022-01-12",
@@ -1549,7 +1537,7 @@
     },
     {
         "themoviedb_movie_id": 10138,
-        "name": "Iron Man 2",
+        "title": "Iron Man 2",
         "image": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
         "popularity": 145.881,
         "release_date": "2010-04-28",
@@ -1562,7 +1550,7 @@
     },
     {
         "themoviedb_movie_id": 436969,
-        "name": "The Suicide Squad",
+        "title": "The Suicide Squad",
         "image": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
         "popularity": 302.091,
         "release_date": "2021-07-28",
@@ -1575,7 +1563,7 @@
     },
     {
         "themoviedb_movie_id": 475557,
-        "name": "Joker",
+        "title": "Joker",
         "image": "/hO7KbdvGOtDdeg0W4Y5nKEHeDDh.jpg",
         "popularity": 127.146,
         "release_date": "2019-10-01",
@@ -1588,7 +1576,7 @@
     },
     {
         "themoviedb_movie_id": 1930,
-        "name": "The Amazing Spider-Man",
+        "title": "The Amazing Spider-Man",
         "image": "/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
         "popularity": 158.888,
         "release_date": "2012-06-23",
@@ -1601,7 +1589,7 @@
     },
     {
         "themoviedb_movie_id": 102899,
-        "name": "Ant-Man",
+        "title": "Ant-Man",
         "image": "/a7sAqMKv5tkAdMzFfIhPqIBmQ9g.jpg",
         "popularity": 80.318,
         "release_date": "2015-07-14",
@@ -1614,7 +1602,7 @@
     },
     {
         "themoviedb_movie_id": 728366,
-        "name": "Borrego",
+        "title": "Borrego",
         "image": "/nGpSo9gDtHOM9lpFCqOD3rjbhd9.jpg",
         "popularity": 10.784,
         "release_date": "2022-01-14",
@@ -1626,7 +1614,7 @@
     },
     {
         "themoviedb_movie_id": 760104,
-        "name": "X",
+        "title": "X",
         "image": "/2oXQpm0wfOkIL0jBJABbL5AfMs6.jpg",
         "popularity": 76.314,
         "release_date": "2022-03-17",
@@ -1639,7 +1627,7 @@
     },
     {
         "themoviedb_movie_id": 537915,
-        "name": "After",
+        "title": "After",
         "image": "/997ToEZvF2Obp9zNZbY5ELVnmrW.jpg",
         "popularity": 256.108,
         "release_date": "2019-04-11",
@@ -1651,7 +1639,7 @@
     },
     {
         "themoviedb_movie_id": 539681,
-        "name": "DC League of Super-Pets",
+        "title": "DC League of Super-Pets",
         "image": "/p8XnVA7zWZu7ZJsM1Cm9l7S9IH8.jpg",
         "popularity": 108.35,
         "release_date": "2022-07-27",
@@ -1664,7 +1652,7 @@
     },
     {
         "themoviedb_movie_id": 682507,
-        "name": "Where the Crawdads Sing",
+        "title": "Where the Crawdads Sing",
         "image": "/dpwCWw7eDdX0IQTJw30H1h9JfkS.jpg",
         "popularity": 46.438,
         "release_date": "2022-07-15",
@@ -1676,7 +1664,7 @@
     },
     {
         "themoviedb_movie_id": 100402,
-        "name": "Captain America: The Winter Soldier",
+        "title": "Captain America: The Winter Soldier",
         "image": "/yHB0eNR8rvCpn0VdghEwBsXAC0N.jpg",
         "popularity": 59.526,
         "release_date": "2014-03-20",
@@ -1689,7 +1677,7 @@
     },
     {
         "themoviedb_movie_id": 746333,
-        "name": "Super-héros malgré lui",
+        "title": "Super-héros malgré lui",
         "image": "/rfbpgHbotsnB4sopZDIA3EhPecQ.jpg",
         "popularity": 534.553,
         "release_date": "2022-02-02",
@@ -1701,7 +1689,7 @@
     },
     {
         "themoviedb_movie_id": 363088,
-        "name": "Ant-Man and the Wasp",
+        "title": "Ant-Man and the Wasp",
         "image": "/6P3c80EOm7BodndGBUAJHHsHKrp.jpg",
         "popularity": 73.102,
         "release_date": "2018-07-04",
@@ -1714,7 +1702,7 @@
     },
     {
         "themoviedb_movie_id": 454626,
-        "name": "Sonic the Hedgehog",
+        "title": "Sonic the Hedgehog",
         "image": "/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg",
         "popularity": 176.031,
         "release_date": "2020-02-12",
@@ -1727,7 +1715,7 @@
     },
     {
         "themoviedb_movie_id": 68721,
-        "name": "Iron Man 3",
+        "title": "Iron Man 3",
         "image": "/tKa1gmGKAUVYnflYcadipeL3d9h.jpg",
         "popularity": 107.319,
         "release_date": "2013-04-18",
@@ -1740,7 +1728,7 @@
     },
     {
         "themoviedb_movie_id": 330,
-        "name": "The Lost World: Jurassic Park",
+        "title": "The Lost World: Jurassic Park",
         "image": "/2W1MfDpE3bH1hLAiFAUBWe4nBCP.jpg",
         "popularity": 5.799,
         "release_date": "1997-05-23",
@@ -1753,7 +1741,7 @@
     },
     {
         "themoviedb_movie_id": 791373,
-        "name": "Zack Snyder's Justice League",
+        "title": "Zack Snyder's Justice League",
         "image": "/pcDc2WJAYGJTTvRSEIpRZwM3Ola.jpg",
         "popularity": 265.618,
         "release_date": "2021-03-18",
@@ -1766,7 +1754,7 @@
     },
     {
         "themoviedb_movie_id": 913814,
-        "name": "Brian and Charles",
+        "title": "Brian and Charles",
         "image": "/8Kbr2lV4XE2zqI564u0xlMLpx8r.jpg",
         "popularity": 28.473,
         "release_date": "2022-06-17",
@@ -1778,7 +1766,7 @@
     },
     {
         "themoviedb_movie_id": 530254,
-        "name": "마녀",
+        "title": "마녀",
         "image": "/rQ7hQ0fXhg6fZAXlRbIvou1QuMX.jpg",
         "popularity": 54.099,
         "release_date": "2018-06-27",
@@ -1791,7 +1779,7 @@
     },
     {
         "themoviedb_movie_id": 718930,
-        "name": "Bullet Train",
+        "title": "Bullet Train",
         "image": "/527Kxta1PjtovdFbsBe3vxO6Zfw.jpg",
         "popularity": 79.378,
         "release_date": "2022-08-03",
@@ -1804,7 +1792,7 @@
     },
     {
         "themoviedb_movie_id": 776305,
-        "name": "竜とそばかすの姫",
+        "title": "竜とそばかすの姫",
         "image": "/vzJkN2vpIiCXzQ6AgwMmNhRPag2.jpg",
         "popularity": 262.576,
         "release_date": "2021-07-16",
@@ -1817,7 +1805,7 @@
     },
     {
         "themoviedb_movie_id": 27205,
-        "name": "Inception",
+        "title": "Inception",
         "image": "/ztZ4vw151mw04Bg6rqJLQGBAmvn.jpg",
         "popularity": 113.75,
         "release_date": "2010-07-15",
@@ -1830,7 +1818,7 @@
     },
     {
         "themoviedb_movie_id": 278,
-        "name": "The Shawshank Redemption",
+        "title": "The Shawshank Redemption",
         "image": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
         "popularity": 77.514,
         "release_date": "1994-09-23",
@@ -1842,7 +1830,7 @@
     },
     {
         "themoviedb_movie_id": 810693,
-        "name": "劇場版 呪術廻戦 0",
+        "title": "劇場版 呪術廻戦 0",
         "image": "/t9K8ycUBCplWiICDOKRNRYcEH9e.jpg",
         "popularity": 1780.03,
         "release_date": "2021-12-24",
@@ -1855,7 +1843,7 @@
     },
     {
         "themoviedb_movie_id": 122,
-        "name": "The Lord of the Rings: The Return of the King",
+        "title": "The Lord of the Rings: The Return of the King",
         "image": "/lXhgCODAbBXL5buk9yEmTpOoOgR.jpg",
         "popularity": 97.105,
         "release_date": "2003-12-01",
@@ -1868,7 +1856,7 @@
     },
     {
         "themoviedb_movie_id": 576845,
-        "name": "Last Night in Soho",
+        "title": "Last Night in Soho",
         "image": "/7OcRErUXXdAVAHg6y5cjn56ivtu.jpg",
         "popularity": 119.072,
         "release_date": "2021-10-21",
@@ -1881,7 +1869,7 @@
     },
     {
         "themoviedb_movie_id": 324857,
-        "name": "Spider-Man: Into the Spider-Verse",
+        "title": "Spider-Man: Into the Spider-Verse",
         "image": "/x2IqsMlpbOhS8zIUJfyl1yO4gHF.jpg",
         "popularity": 114.248,
         "release_date": "2018-12-06",
@@ -1894,7 +1882,7 @@
     },
     {
         "themoviedb_movie_id": 990982,
-        "name": "Last the Night",
+        "title": "Last the Night",
         "image": "/iEi7zXoVUVXYNeVxBzdt68jegqD.jpg",
         "popularity": 8.909,
         "release_date": "2022-07-01",
@@ -1906,7 +1894,7 @@
     },
     {
         "themoviedb_movie_id": 348,
-        "name": "Alien",
+        "title": "Alien",
         "image": "/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
         "popularity": 47.408,
         "release_date": "1979-05-25",
@@ -1918,7 +1906,7 @@
     },
     {
         "themoviedb_movie_id": 696806,
-        "name": "The Adam Project",
+        "title": "The Adam Project",
         "image": "/ewUqXnwiRLhgmGhuksOdLgh49Ch.jpg",
         "popularity": 333.48,
         "release_date": "2022-03-11",
@@ -1931,7 +1919,7 @@
     },
     {
         "themoviedb_movie_id": 121,
-        "name": "The Lord of the Rings: The Two Towers",
+        "title": "The Lord of the Rings: The Two Towers",
         "image": "/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg",
         "popularity": 108.762,
         "release_date": "2002-12-18",
@@ -1944,7 +1932,7 @@
     },
     {
         "themoviedb_movie_id": 603,
-        "name": "The Matrix",
+        "title": "The Matrix",
         "image": "/y9wuhlrqSHvhTLNVNwKMKe6HZzY.jpg",
         "popularity": 68.229,
         "release_date": "1999-03-30",
@@ -1956,7 +1944,7 @@
     },
     {
         "themoviedb_movie_id": 12445,
-        "name": "Harry Potter and the Deathly Hallows: Part 2",
+        "title": "Harry Potter and the Deathly Hallows: Part 2",
         "image": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
         "popularity": 182.304,
         "release_date": "2011-07-07",
@@ -1968,7 +1956,7 @@
     },
     {
         "themoviedb_movie_id": 22,
-        "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
         "image": "/jOh79POQu4hyVIseUxdQxTW7vOf.jpg",
         "popularity": 164.656,
         "release_date": "2003-07-09",
@@ -1981,7 +1969,7 @@
     },
     {
         "themoviedb_movie_id": 105,
-        "name": "Back to the Future",
+        "title": "Back to the Future",
         "image": "/fq3wyOs1RHyz2yfzsb4sck7aWRG.jpg",
         "popularity": 60.15,
         "release_date": "1985-07-03",
@@ -1994,7 +1982,7 @@
     },
     {
         "themoviedb_movie_id": 862,
-        "name": "Toy Story",
+        "title": "Toy Story",
         "image": "/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
         "popularity": 216.364,
         "release_date": "1995-10-30",
@@ -2007,7 +1995,7 @@
     },
     {
         "themoviedb_movie_id": 293660,
-        "name": "Deadpool",
+        "title": "Deadpool",
         "image": "/en971MEXui9diirXlogOrPKmsEn.jpg",
         "popularity": 180.001,
         "release_date": "2016-02-09",
@@ -2020,7 +2008,7 @@
     },
     {
         "themoviedb_movie_id": 102382,
-        "name": "The Amazing Spider-Man 2",
+        "title": "The Amazing Spider-Man 2",
         "image": "/mPyiNWS0upEG1mGKOKyCQSoZpnp.jpg",
         "popularity": 139.177,
         "release_date": "2014-04-16",
@@ -2033,7 +2021,7 @@
     },
     {
         "themoviedb_movie_id": 974691,
-        "name": "South Park the Streaming Wars",
+        "title": "South Park the Streaming Wars",
         "image": "/zOZ3Uh76Z2dNrW4qkHYIxxTvPY5.jpg",
         "popularity": 55.117,
         "release_date": "2022-06-01",
@@ -2045,7 +2033,7 @@
     },
     {
         "themoviedb_movie_id": 119892,
-        "name": "西遊記之大鬧天宮",
+        "title": "西遊記之大鬧天宮",
         "image": "/xW6ZbgVox0olPGxhu8Rvycy8y8G.jpg",
         "popularity": 38.585,
         "release_date": "2014-01-09",
@@ -2058,7 +2046,7 @@
     },
     {
         "themoviedb_movie_id": 628900,
-        "name": "The Contractor",
+        "title": "The Contractor",
         "image": "/figlwUsXXFehX3IebdjqNLV6vWk.jpg",
         "popularity": 631.358,
         "release_date": "2022-03-10",
@@ -2070,7 +2058,7 @@
     },
     {
         "themoviedb_movie_id": 777831,
-        "name": "9 Bullets",
+        "title": "9 Bullets",
         "image": "/o31kGDH9GbAZjVLwPYno8XvQGV2.jpg",
         "popularity": 1067.748,
         "release_date": "2022-04-14",
@@ -2082,7 +2070,7 @@
     },
     {
         "themoviedb_movie_id": 852485,
-        "name": "She Will",
+        "title": "She Will",
         "image": "/ceSQcIWWKSwubn4ny8BlWtE5q7u.jpg",
         "popularity": 56.024,
         "release_date": "2022-07-15",
@@ -2095,7 +2083,7 @@
     },
     {
         "themoviedb_movie_id": 550,
-        "name": "Fight Club",
+        "title": "Fight Club",
         "image": "/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg",
         "popularity": 55.171,
         "release_date": "1999-10-15",
@@ -2106,7 +2094,7 @@
     },
     {
         "themoviedb_movie_id": 1576,
-        "name": "Resident Evil",
+        "title": "Resident Evil",
         "image": "/l5KvxFVOru3Qyf3dl2asNw5g1MD.jpg",
         "popularity": 67.676,
         "release_date": "2002-03-15",
@@ -2119,7 +2107,7 @@
     },
     {
         "themoviedb_movie_id": 259316,
-        "name": "Fantastic Beasts and Where to Find Them",
+        "title": "Fantastic Beasts and Where to Find Them",
         "image": "/8Qsr8pvDL3s1jNZQ4HK1d1Xlvnh.jpg",
         "popularity": 114.759,
         "release_date": "2016-11-16",
@@ -2132,7 +2120,7 @@
     },
     {
         "themoviedb_movie_id": 476669,
-        "name": "The King's Man",
+        "title": "The King's Man",
         "image": "/4OTYefcAlaShn6TGVK33UxLW9R7.jpg",
         "popularity": 305.752,
         "release_date": "2021-12-22",
@@ -2145,7 +2133,7 @@
     },
     {
         "themoviedb_movie_id": 20352,
-        "name": "Despicable Me",
+        "title": "Despicable Me",
         "image": "/euCnMxNRlHNxA4f9BMnWbmxPOse.jpg",
         "popularity": 221.598,
         "release_date": "2010-07-08",
@@ -2158,7 +2146,7 @@
     },
     {
         "themoviedb_movie_id": 672,
-        "name": "Harry Potter and the Chamber of Secrets",
+        "title": "Harry Potter and the Chamber of Secrets",
         "image": "/1stUIsjawROZxjiCMtqqXqgfZWC.jpg",
         "popularity": 222.6,
         "release_date": "2002-11-13",
@@ -2170,7 +2158,7 @@
     },
     {
         "themoviedb_movie_id": 960258,
-        "name": "Shark Bait",
+        "title": "Shark Bait",
         "image": "/jVGHRpSgtE2MQLJhC5q4lXmPNQW.jpg",
         "popularity": 1060.443,
         "release_date": "2022-05-13",
@@ -2183,7 +2171,7 @@
     },
     {
         "themoviedb_movie_id": 875104,
-        "name": "叶问宗师觉醒",
+        "title": "叶问宗师觉醒",
         "image": "/bTLnotEeJpnS57py0Onh3Bf4Yl0.jpg",
         "popularity": 98.637,
         "release_date": "2022-06-21",
@@ -2196,7 +2184,7 @@
     },
     {
         "themoviedb_movie_id": 979163,
-        "name": "Beyond Infinity: Buzz and the Journey to Lightyear",
+        "title": "Beyond Infinity: Buzz and the Journey to Lightyear",
         "image": "/mBJ995JUssgh2hhm4JxNj8hyVVM.jpg",
         "popularity": 572.52,
         "release_date": "2022-06-10",
@@ -2207,7 +2195,7 @@
     },
     {
         "themoviedb_movie_id": 297802,
-        "name": "Aquaman",
+        "title": "Aquaman",
         "image": "/9QusGjxcYvfPD1THg6oW3RLeNn7.jpg",
         "popularity": 67.893,
         "release_date": "2018-07-06",
@@ -2220,7 +2208,7 @@
     },
     {
         "themoviedb_movie_id": 683311,
-        "name": "Castle Falls",
+        "title": "Castle Falls",
         "image": "/ver27ON3Yo5GfvR1VNHO9tTtOdT.jpg",
         "popularity": 24.526,
         "release_date": "2021-12-03",
@@ -2232,7 +2220,7 @@
     },
     {
         "themoviedb_movie_id": 823625,
-        "name": "Blacklight",
+        "title": "Blacklight",
         "image": "/iDeWAGnmloZ5Oz3bocDp4rSbUXd.jpg",
         "popularity": 436.489,
         "release_date": "2022-02-10",
@@ -2244,7 +2232,7 @@
     },
     {
         "themoviedb_movie_id": 338952,
-        "name": "Fantastic Beasts: The Crimes of Grindelwald",
+        "title": "Fantastic Beasts: The Crimes of Grindelwald",
         "image": "/qrtRKRzoNkf5vemO9tJ2Y4DrHxQ.jpg",
         "popularity": 77.244,
         "release_date": "2018-11-14",
@@ -2257,7 +2245,7 @@
     },
     {
         "themoviedb_movie_id": 76600,
-        "name": "Avatar: The Way of Water",
+        "title": "Avatar: The Way of Water",
         "image": "/wEQ0Pu2jEyqHKOJRAdAKaeTFCML.jpg",
         "popularity": 173.253,
         "release_date": "2022-12-14",
@@ -2270,7 +2258,7 @@
     },
     {
         "themoviedb_movie_id": 558,
-        "name": "Spider-Man 2",
+        "title": "Spider-Man 2",
         "image": "/6al048Lat3eLVQOuKtc9h6Tu94d.jpg",
         "popularity": 36.687,
         "release_date": "2004-06-25",
@@ -2283,7 +2271,7 @@
     },
     {
         "themoviedb_movie_id": 335983,
-        "name": "Venom",
+        "title": "Venom",
         "image": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
         "popularity": 117.513,
         "release_date": "2018-09-28",
@@ -2295,7 +2283,7 @@
     },
     {
         "themoviedb_movie_id": 12444,
-        "name": "Harry Potter and the Deathly Hallows: Part 1",
+        "title": "Harry Potter and the Deathly Hallows: Part 1",
         "image": "/fXRXpzxUApE3OuXhIqsdavQjCVa.jpg",
         "popularity": 171.746,
         "release_date": "2010-10-17",
@@ -2307,7 +2295,7 @@
     },
     {
         "themoviedb_movie_id": 550988,
-        "name": "Free Guy",
+        "title": "Free Guy",
         "image": "/7py8kUCYaOdFn1TfVS87BDBySOz.jpg",
         "popularity": 373.423,
         "release_date": "2021-08-11",
@@ -2320,7 +2308,7 @@
     },
     {
         "themoviedb_movie_id": 335984,
-        "name": "Blade Runner 2049",
+        "title": "Blade Runner 2049",
         "image": "/ilRyazdMJwN05exqhwK4tMKBYZs.jpg",
         "popularity": 57.658,
         "release_date": "2017-10-04",
@@ -2332,7 +2320,7 @@
     },
     {
         "themoviedb_movie_id": 399566,
-        "name": "Godzilla vs. Kong",
+        "title": "Godzilla vs. Kong",
         "image": "/inJjDhCjfhh3RtrJWBmmDqeuSYC.jpg",
         "popularity": 230.978,
         "release_date": "2021-03-24",
@@ -2345,7 +2333,7 @@
     },
     {
         "themoviedb_movie_id": 996052,
-        "name": "Death Hunt",
+        "title": "Death Hunt",
         "image": "/i66AdMQjAMa1h3gSCz7Z8POEOFs.jpg",
         "popularity": 16.263,
         "release_date": "2022-03-10",
@@ -2357,7 +2345,7 @@
     },
     {
         "themoviedb_movie_id": 880313,
-        "name": "La ira de Dios",
+        "title": "La ira de Dios",
         "image": "/1uhf2qYd7wBcOsTJ7Li1FcH672D.jpg",
         "popularity": 683.077,
         "release_date": "2022-06-15",
@@ -2369,7 +2357,7 @@
     },
     {
         "themoviedb_movie_id": 716612,
-        "name": "Spencer",
+        "title": "Spencer",
         "image": "/mtEVe3Iu6aGVCRTWIYIU1uWAq75.jpg",
         "popularity": 38.242,
         "release_date": "2021-11-04",
@@ -2380,7 +2368,7 @@
     },
     {
         "themoviedb_movie_id": 508943,
-        "name": "Luca",
+        "title": "Luca",
         "image": "/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
         "popularity": 331.974,
         "release_date": "2021-06-17",
@@ -2393,7 +2381,7 @@
     },
     {
         "themoviedb_movie_id": 615904,
-        "name": "Marry Me",
+        "title": "Marry Me",
         "image": "/mJQf866IDnWw7ZkFEM2Oz7QfhW0.jpg",
         "popularity": 136.209,
         "release_date": "2022-02-09",
@@ -2406,7 +2394,7 @@
     },
     {
         "themoviedb_movie_id": 811631,
-        "name": "Infinite Storm",
+        "title": "Infinite Storm",
         "image": "/o0JpLYCadyUCR4KwxN7hrzFE968.jpg",
         "popularity": 19.8,
         "release_date": "2022-03-25",
@@ -2418,7 +2406,7 @@
     },
     {
         "themoviedb_movie_id": 216015,
-        "name": "Fifty Shades of Grey",
+        "title": "Fifty Shades of Grey",
         "image": "/nxnRRlj19nhMzratcB2eSknKZNp.jpg",
         "popularity": 163.348,
         "release_date": "2015-02-11",
@@ -2431,7 +2419,7 @@
     },
     {
         "themoviedb_movie_id": 209112,
-        "name": "Batman v Superman: Dawn of Justice",
+        "title": "Batman v Superman: Dawn of Justice",
         "image": "/doiUtOHzcxXFl0GVQ2n8Ay6Pirx.jpg",
         "popularity": 91.812,
         "release_date": "2016-03-23",
@@ -2444,7 +2432,7 @@
     },
     {
         "themoviedb_movie_id": 559,
-        "name": "Spider-Man 3",
+        "title": "Spider-Man 3",
         "image": "/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg",
         "popularity": 103.562,
         "release_date": "2007-05-01",
@@ -2457,7 +2445,7 @@
     },
     {
         "themoviedb_movie_id": 280,
-        "name": "Terminator 2: Judgment Day",
+        "title": "Terminator 2: Judgment Day",
         "image": "/xKb6mtdfI5Qsggc44Hr9CCUDvaj.jpg",
         "popularity": 67.578,
         "release_date": "1991-07-03",
@@ -2470,7 +2458,7 @@
     },
     {
         "themoviedb_movie_id": 272,
-        "name": "Batman Begins",
+        "title": "Batman Begins",
         "image": "/hQrHN6WXERVw6XUMpfCgLfvrh5V.jpg",
         "popularity": 51.411,
         "release_date": "2005-06-10",
@@ -2483,7 +2471,7 @@
     },
     {
         "themoviedb_movie_id": 1865,
-        "name": "Pirates of the Caribbean: On Stranger Tides",
+        "title": "Pirates of the Caribbean: On Stranger Tides",
         "image": "/uzIGtyS6bbnJzGsPL93WCF1FWm8.jpg",
         "popularity": 218.906,
         "release_date": "2011-05-14",
@@ -2496,7 +2484,7 @@
     },
     {
         "themoviedb_movie_id": 674,
-        "name": "Harry Potter and the Goblet of Fire",
+        "title": "Harry Potter and the Goblet of Fire",
         "image": "/5rrGVmRUuCKVbqUu41XIWTXJmNA.jpg",
         "popularity": 185.775,
         "release_date": "2005-11-16",
@@ -2509,7 +2497,7 @@
     },
     {
         "themoviedb_movie_id": 384018,
-        "name": "Fast & Furious Presents: Hobbs & Shaw",
+        "title": "Fast & Furious Presents: Hobbs & Shaw",
         "image": "/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg",
         "popularity": 94.492,
         "release_date": "2019-08-01",
@@ -2522,7 +2510,7 @@
     },
     {
         "themoviedb_movie_id": 354912,
-        "name": "Coco",
+        "title": "Coco",
         "image": "/askg3SMvhqEl4OL52YuvdtY40Yb.jpg",
         "popularity": 213.221,
         "release_date": "2017-10-27",
@@ -2535,7 +2523,7 @@
     },
     {
         "themoviedb_movie_id": 644495,
-        "name": "House of Gucci",
+        "title": "House of Gucci",
         "image": "/jdLsmpqmP1wTdFUPtmxMnYgoifT.jpg",
         "popularity": 98.487,
         "release_date": "2021-11-24",
@@ -2548,7 +2536,7 @@
     },
     {
         "themoviedb_movie_id": 585083,
-        "name": "Hotel Transylvania: Transformania",
+        "title": "Hotel Transylvania: Transformania",
         "image": "/qBLEWvJNVsehJkEJqIigPsWyBse.jpg",
         "popularity": 709.095,
         "release_date": "2022-02-25",

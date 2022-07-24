@@ -6,7 +6,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 const helmet = require('helmet');
 
-const moviesRatingRoute = require('./routes/moviesRating');
+const moviesRoute = require('./routes/movies.routes');
 
 const app = express();
 
@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
   res.send('Hello Elias');
 });
 
-app.use('/api/movies/', moviesRatingRoute);
+app.use('/api/movies/', moviesRoute);
 
 const PORT = process.env.PORT || 3001;
 

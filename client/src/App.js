@@ -1,9 +1,21 @@
-function App() {
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Netflix from './pages/Netflix';
+import Player from './pages/Player';
+import Signup from './pages/Signup';
+
+const App = () => {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/login' element={<Login />} />
+        <Route exact path='/signup' element={<Signup />} />
+        <Route exact path='/' element={<Netflix />} />
+        <Route exact path='/player' element={<Player />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

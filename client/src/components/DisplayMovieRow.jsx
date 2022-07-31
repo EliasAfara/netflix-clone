@@ -23,7 +23,6 @@ const DisplayMovieRow = ({ title, movies, isLiked = false }) => {
   const [windowDimensions] = useViewport();
   const { width } = windowDimensions;
   const navigate = useNavigate();
-  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <>

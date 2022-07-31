@@ -19,8 +19,9 @@ const Footer = () => {
 };
 
 const AppFooter = styled.footer`
+  margin-top: 30px;
   padding-top: 35px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   grid-column: 1 / 13;
   text-align: center;
 

@@ -14,7 +14,6 @@ import {
   getRecommendedMovies,
   getTop10MoviesMostPopular,
 } from '../services/movies.services';
-import CardSlider from '../components/CardSlider';
 import Footer from '../components/Footer';
 import DisplayMovieRow from '../components/DisplayMovieRow';
 

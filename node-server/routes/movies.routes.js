@@ -11,13 +11,6 @@ const {
   getRecommendedMovies,
 } = require('../controllers/movies.controller');
 
-const {
-  addMovieRating,
-  getMovieRatings,
-  updateMovieRating,
-  deleteMovieRating,
-} = require('../controllers/moviesRating.controller');
-
 // Movie details
 router.get('/', getAllMovies);
 router.post('/addMovie', addMovie);
@@ -25,14 +18,6 @@ router.get('/top10MoviesMostPopular', getTop10MoviesMostPopular);
 router.get('/latestMovies', getLatestMovies);
 router.get('/randomRecommendation', getRecommendedMovies);
 router.get('/:movieId', getMovieDetailsById);
-
-// Movie rating
-router.post('/:movieId/rating', addMovieRating);
-router.get('/:movieId/rating', getMovieRatings);
-router.put('/:movieId/rating', updateMovieRating);
-router.delete('/:movieId/rating', deleteMovieRating);
-
-// Trending
 
 module.exports = router;
 

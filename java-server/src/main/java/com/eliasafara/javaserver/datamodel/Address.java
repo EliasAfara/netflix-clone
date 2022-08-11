@@ -7,8 +7,8 @@ import java.util.Date;
 @Table(name = "address")
 public class Address {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "contact_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "address_id")
     private int address_id;
     private String country;
     private String area;

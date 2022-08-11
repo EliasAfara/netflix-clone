@@ -13,7 +13,7 @@ import java.util.Date;
 public class Contact {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "contact_id")
     private int contact_id;
     private String first_name;

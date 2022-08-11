@@ -9,7 +9,7 @@ import javax.persistence.*;
 @JsonIgnoreProperties({"hibernateLazyInitializer"})
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
     private int user_id;
     private String username;
@@ -23,12 +23,24 @@ public class User {
 
     public User() {}
 
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
+    public User(String username, String role, Contact contact) {
+        this.username = username;
+        this.role = role;
+        this.contact = contact;
+    }
+
     public User(String username, String password, String role, Contact contact) {
         this.username = username;
         this.password = password;
         this.role = role;
         this.contact = contact;
     }
+
 
     public int getUser_id() {
         return user_id;

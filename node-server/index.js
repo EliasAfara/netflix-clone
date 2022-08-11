@@ -7,6 +7,7 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 
 const moviesRoute = require('./routes/movies.routes');
+const moviesRatingRoute = require('./routes/moviesRating.routes');
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/movies/', moviesRoute);
+app.use('/api/movies/rating/', moviesRatingRoute);
 
 const PORT = process.env.PORT || 3001;
 

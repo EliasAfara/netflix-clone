@@ -5,9 +5,6 @@ import com.eliasafara.javaserver.datamodel.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
-
 public interface UserRepository extends JpaRepository<User, Integer> {
-    List<User> findByUsernameContaining(String userName);
-    List<User> findByUsername(String userName);
-    List<User> findByUsernameAndPassword(String userName,String password);
+    List<User> findByUsernameAndPassword(String userName, String password);
 }

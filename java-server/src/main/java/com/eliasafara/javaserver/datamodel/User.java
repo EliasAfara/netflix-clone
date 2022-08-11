@@ -1,26 +1,33 @@
 package com.eliasafara.javaserver.datamodel;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
+@JsonIgnoreProperties({"hibernateLazyInitializer"})
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "user_id")
     private int user_id;
     private String username;
     private String password;
-    private int role_id;
+
+    private String role;
+
+    @OneToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+    @JoinColumn(name = "contact_id", nullable = false)
+    private Contact contact;
 
     public User() {}
 
-    public User(int user_id, String username, String password, int role_id) {
-        this.user_id = user_id;
+    public User(String username, String password, String role, Contact contact) {
         this.username = username;
         this.password = password;
-        this.role_id = role_id;
+        this.role = role;
+        this.contact = contact;
     }
 
     public int getUser_id() {
@@ -47,13 +54,22 @@ public class User {
         this.password = password;
     }
 
-    public int getRole_id() {
-        return role_id;
+    public String getRole() {
+        return role;
     }
 
-    public void setRole_id(int role_id) {
-        this.role_id = role_id;
+    public void setRole(String role) {
+        this.role = role;
     }
+
+    public Contact getContact() {
+        return contact;
+    }
+
+    public void setContact(Contact contact) {
+        this.contact = contact;
+    }
+
 
     @Override
     public String toString() {
@@ -61,7 +77,7 @@ public class User {
                 "user_id=" + user_id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", role_id=" + role_id +
+                ", role=" + role +
                 '}';
     }
 }

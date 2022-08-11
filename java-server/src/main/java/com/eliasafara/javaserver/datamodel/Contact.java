@@ -1,10 +1,15 @@
 package com.eliasafara.javaserver.datamodel;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
+import java.sql.Timestamp;
 import java.util.Date;
 
 @Entity
 @Table(name = "contacts")
+@JsonIgnoreProperties({"hibernateLazyInitializer"})
 public class Contact {
 
     @Id
@@ -13,21 +18,21 @@ public class Contact {
     private int contact_id;
     private String first_name;
     private String last_name;
-    private Date date_of_birth;
+
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-MM-dd", timezone="Europe/Berlin")
+    private Timestamp date_of_birth;
     private String gender;
     private String contact_email;
-    private int user_id;
 
     public Contact() {}
 
-    public Contact(int contact_id, String first_name, String last_name, Date date_of_birth, String gender, String contact_email, int user_id) {
-        this.contact_id = contact_id;
+    public Contact(String first_name, String last_name, Timestamp date_of_birth, String gender, String contact_email) {
+        super();
         this.first_name = first_name;
         this.last_name = last_name;
         this.date_of_birth = date_of_birth;
         this.gender = gender;
         this.contact_email = contact_email;
-        this.user_id = user_id;
     }
 
     public int getContact_id() {
@@ -54,11 +59,11 @@ public class Contact {
         this.last_name = last_name;
     }
 
-    public Date getDate_of_birth() {
+    public Timestamp getDate_of_birth() {
         return date_of_birth;
     }
 
-    public void setDate_of_birth(Date date_of_birth) {
+    public void setDate_of_birth(Timestamp date_of_birth) {
         this.date_of_birth = date_of_birth;
     }
 
@@ -78,14 +83,6 @@ public class Contact {
         this.contact_email = contact_email;
     }
 
-    public int getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
-    }
-
     @Override
     public String toString() {
         return "Contact{" +
@@ -95,7 +92,6 @@ public class Contact {
                 ", date_of_birth=" + date_of_birth +
                 ", gender='" + gender + '\'' +
                 ", contact_email='" + contact_email + '\'' +
-                ", user_id=" + user_id +
                 '}';
     }
 }

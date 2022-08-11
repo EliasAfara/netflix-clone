@@ -38,6 +38,7 @@ public class UserController {
                     req.getRole(),
                     contact)
             );
+            new_user.setPassword(null);
             return new ResponseEntity<>(new_user, HttpStatus.CREATED);
         } catch (Exception e) {
             e.printStackTrace();
@@ -57,6 +58,7 @@ public class UserController {
                     foundUsers.get(0).getRole(),
                     foundUsers.get(0).getContact()
             );
+            loggedInUser.setPassword(null);
             return new ResponseEntity<>(loggedInUser, HttpStatus.OK);
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "44aee625-95f8-4321-a234-442d74233302",
+		"name": "node-server-netflix-clone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13117004"
+	},
+	"item": [
+		{
+			"name": "add movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"themoviedb_movie_id\": 438148,\n        \"title\": \"Minions: The Rise of Gru\",\n        \"image\": \"/qTkJ6kbTeSjqfHCFCmWnfWZJOtm.jpg\",\n        \"popularity\": 11846.631,\n        \"release_date\": \"2022-06-29\",\n        \"director\": \"Kyle Balda\",\n        \"genres\": [\n            \"Family\",\n            \"Animation\",\n            \"Adventure\"\n        ]\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/movies/addMovie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"addMovie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get top10 movies most popular",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/movies/top10MoviesMostPopular",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"top10MoviesMostPopular"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get top10 movies most rated",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/movies/top10MoviesMostRated",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"top10MoviesMostRated"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/movies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get latest movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/movies/latestMovies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"latestMovies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get recommended/random movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/movies/randomRecommendation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"randomRecommendation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Movie Details By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/movies/62dd86b289947f7eedf3b09c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"62dd86b289947f7eedf3b09c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rate a Movie By Id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"rating\": \"4.0\",\n    \"comment\": \"Awesome\", \n    \"userId\": 19\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/movies/rating/62dd86b289947f7eedf3af52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"rating",
+						"62dd86b289947f7eedf3af52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update movie average rating",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/movies/rating/updateMovieAverageRating/62dd86b289947f7eedf3af52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"movies",
+						"rating",
+						"updateMovieAverageRating",
+						"62dd86b289947f7eedf3af52"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

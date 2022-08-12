@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import logo from '../assets/logo.png';
-// import { firebaseAuth } from '../utils/firebase-config';
+
+// State Context
+import useAppStateContext from '../hooks/useAppStateContext';
+import { useNavigate } from 'react-router-dom';
+
 import { FaPowerOff, FaSearch } from 'react-icons/fa';
 export default function Navbar({ isScrolled }) {
   const [showSearch, setShowSearch] = useState(false);
@@ -14,6 +18,15 @@ export default function Navbar({ isScrolled }) {
     { name: 'Movies', link: '/movies' },
     { name: 'My List', link: '/mylist' },
   ];
+
+  const { dispatch } = useAppStateContext();
+
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    dispatch({ type: 'Logout' });
+    navigate('/login');
+  };
 
   return (
     <Container>
@@ -55,11 +68,7 @@ export default function Navbar({ isScrolled }) {
               }}
             />
           </div>
-          <button
-            onClick={() => {
-              console.log('sign out');
-            }}
-          >
+          <button onClick={handleLogout}>
             <FaPowerOff />
           </button>
         </div>

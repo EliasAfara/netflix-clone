@@ -10,10 +10,10 @@ export default function Header(props) {
       <div className='logo'>
         <img src={logo} alt='logo' />
       </div>
-      {props.login && (
-        <button onClick={() => navigate(props.login ? '/login' : '/signup')}>
-          Sign In
-        </button>
+      {props.login ? (
+        <button onClick={() => navigate('/login')}>Sign In</button>
+      ) : (
+        <button onClick={() => navigate('/signup')}>Sign Up</button>
       )}
     </StyledHeader>
   );

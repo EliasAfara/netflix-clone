@@ -133,6 +133,25 @@ const getTop10MoviesMostPopular = async (req, res) => {
   }
 };
 
+// top 10 movies most rated
+const getTop10MoviesMostRated = async (req, res) => {
+  try {
+    const sortByMostRated = { averageRating: -1 };
+    let movies = await moviesSchema.find().sort(sortByMostRated).limit(10);
+
+    if (!movies) {
+      return res.status(404).json({
+        message: 'No movies',
+      });
+    }
+
+    res.status(200).json({ movies });
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('500 Internal server error');
+  }
+};
+
 // top 10 movies most viewed
 const getTop10MoviesMostViewed = async (req, res) => {};
 
@@ -144,4 +163,5 @@ module.exports = {
   getLatestMovies,
   getMovieDetailsById,
   getRecommendedMovies,
+  getTop10MoviesMostRated,
 };

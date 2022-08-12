@@ -3,25 +3,26 @@ import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import BackgroundImage from '../components/BackgroundImage';
 import Header from '../components/Header';
-// import { onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth';
-// import { firebaseAuth } from '../utils/firebase-config';
+
+// State Context
+import useAppStateContext from '../hooks/useAppStateContext';
+
+// login function
+import { login } from '../services/accounts.services';
 
 function Login() {
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
+  const { dispatch } = useAppStateContext();
 
   const handleLogin = async () => {
     try {
-      // await signInWithEmailAndPassword(firebaseAuth, email, password);
+      login({ username, password }, dispatch, navigate);
     } catch (error) {
       console.log(error.code);
     }
   };
-
-  // onAuthStateChanged(firebaseAuth, (currentUser) => {
-  //   if (currentUser) navigate('/');
-  // });
 
   return (
     <Container>
@@ -36,9 +37,9 @@ function Login() {
             <div className='container flex column'>
               <input
                 type='text'
-                placeholder='Email'
-                onChange={(e) => setEmail(e.target.value)}
-                value={email}
+                placeholder='Username'
+                onChange={(e) => setUsername(e.target.value)}
+                value={username}
               />
               <input
                 type='password'

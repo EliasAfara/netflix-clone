@@ -13,6 +13,7 @@ import {
   getLatestMovies,
   getRecommendedMovies,
   getTop10MoviesMostPopular,
+  getTop10MoviesMostRated,
 } from '../services/movies.services';
 import Footer from '../components/Footer';
 import DisplayMovieRow from '../components/DisplayMovieRow';
@@ -22,22 +23,30 @@ function Netflix() {
 
   const [latestMovies, setLatestMovies] = useState([]);
   const [recommendedMovies, setRecommendedMovies] = useState([]);
+
+  const [randomContinueWatching, setRandomContinueWatching] = useState([]);
+
   const [top10MostPopularMovies, setTop10MostPopularMovies] = useState([]);
+  const [top10MostMostRated, setTop10MostMostRated] = useState([]);
 
   const navigate = useNavigate();
 
   useEffect(() => {
     (async () => {
       const res1 = await getLatestMovies();
-      console.log(res1);
       setLatestMovies(res1.movies);
 
       const res2 = await getRecommendedMovies();
-      console.log(res2);
       setRecommendedMovies(res2.randomMovies);
 
-      const res3 = await getTop10MoviesMostPopular();
-      setTop10MostPopularMovies(res3.movies);
+      const res3 = await getRecommendedMovies();
+      setRandomContinueWatching(res3.randomMovies);
+
+      const res4 = await getTop10MoviesMostPopular();
+      setTop10MostPopularMovies(res4.movies);
+
+      const res5 = await getTop10MoviesMostRated();
+      setTop10MostMostRated(res5.movies);
     })();
   }, []);
 
@@ -76,11 +85,19 @@ function Netflix() {
           </div>
         </div>
       </div>
+      <DisplayMovieRow
+        movies={randomContinueWatching}
+        title='Continue Watching'
+      />
       <DisplayMovieRow movies={latestMovies} title='Latest Movies' />
       <DisplayMovieRow movies={recommendedMovies} title='Recommended Movies' />
       <DisplayMovieRow
         movies={top10MostPopularMovies}
         title='Top 10 Most Popular Movies'
+      />
+      <DisplayMovieRow
+        movies={top10MostMostRated}
+        title='Top 10 Most Rated Movies'
       />
 
       <Footer />

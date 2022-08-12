@@ -116,6 +116,18 @@ div.swiper-button-next {
               }
             }
           }
+          .ratings {
+            ul {
+              gap: 1rem;
+              li {
+                padding-right: 0.7rem;
+                &:first-of-type {
+                  list-style-type: none;
+                }
+              }
+            }
+          }
+
           .genres {
             ul {
               gap: 1rem;

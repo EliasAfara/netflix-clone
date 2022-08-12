@@ -26,6 +26,11 @@ const moviesRatingSchema = mongoose.Schema({
       required: true,
     },
   },
+  averageRating: {
+    type: Number,
+    min: 0,
+    max: 10,
+  },
   ratings: [
     {
       rating: {

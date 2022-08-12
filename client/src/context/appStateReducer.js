@@ -3,7 +3,7 @@ const AppStateReducer = (state, action) => {
     case 'Login': {
       // Add the user to local storage
       localStorage.setItem(
-        'SmartElectionsProfile',
+        'NetflixCloneProfile',
         JSON.stringify({ ...action.payload, isAuthenticated: true })
       );
 
@@ -17,7 +17,7 @@ const AppStateReducer = (state, action) => {
     case 'Register': {
       // Add the user to local storage
       localStorage.setItem(
-        'SmartElectionsProfile',
+        'NetflixCloneProfile',
         JSON.stringify({ ...action.payload, isAuthenticated: true })
       );
 
@@ -29,7 +29,7 @@ const AppStateReducer = (state, action) => {
     }
 
     case 'Logout': {
-      window.localStorage.removeItem('SmartElectionsProfile');
+      window.localStorage.removeItem('NetflixCloneProfile');
       return {
         isAuthenticated: false,
         user: null,

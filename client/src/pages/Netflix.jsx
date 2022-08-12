@@ -50,8 +50,6 @@ function Netflix() {
     })();
   }, []);
 
-  console.log(latestMovies);
-
   window.onscroll = () => {
     setIsScrolled(window.pageYOffset === 0 ? false : true);
     return () => (window.onscroll = null);

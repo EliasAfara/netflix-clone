@@ -29,9 +29,13 @@ const addMovieRating = async (req, res) => {
       });
     }
 
+    let newRatingsList = movie.ratings.push(req.body);
+
     const movieFields = {
       ...movie,
-      ratings: movie.ratings.push(req.body),
+      ratings: newRatingsList,
+      averageRating:
+        movie.ratings.reduce((a, b) => a + b.rating, 0) / newRatingsList.length,
     };
 
     const updatedMovie = await moviesSchema.findByIdAndUpdate(
@@ -41,6 +45,62 @@ const addMovieRating = async (req, res) => {
     );
 
     return res.status(201).json(updatedMovie);
+  } catch (error) {
+    console.log(error);
+    res.status(500).send('500 Internal server error');
+  }
+};
+
+const updateMovieAverageRating = async (req, res) => {
+  const { movieId } = req.params;
+  console.log(movieId);
+
+  try {
+    const movieDetails = await moviesSchema.findById({ _id: movieId });
+
+    if (!movieDetails) {
+      return res.status(404).json({
+        message: 'Movie not found',
+      });
+    }
+
+    const movieFields = {
+      movie: movieDetails.movie,
+      _id: movieDetails._id,
+      ratings: movieDetails.ratings,
+      __v: movieDetails.__v,
+      averageRating:
+        movieDetails.ratings.reduce((a, b) => a + b.rating, 0) /
+        movieDetails.ratings.length,
+    };
+
+    console.log(
+      movieDetails.ratings.reduce((a, b) => a + b.rating, 0) /
+        movieDetails.ratings.length
+    );
+    console.log(movieFields);
+
+    const updatedMovie = await moviesSchema.findByIdAndUpdate(
+      { _id: movieId },
+      { $set: movieFields },
+      { new: true }
+    );
+
+    return res.status(201).json(updatedMovie);
+  } catch (error) {
+    console.log(error);
+    res.status(500).send('500 Internal server error');
+  }
+};
+
+const updateRatings = async (req, res) => {
+  try {
+    await moviesSchema.updateMany(
+      {},
+      { $set: { averageRating: 0 } },
+      { multi: true },
+      (err, writeResult) => {}
+    );
   } catch (error) {
     console.log(error);
     res.status(500).send('500 Internal server error');
@@ -74,4 +134,6 @@ module.exports = {
   getMovieRatings,
   updateMovieRating,
   deleteMovieRating,
+  updateMovieAverageRating,
+  updateRatings,
 };
